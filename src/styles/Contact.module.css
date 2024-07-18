@@ -1,0 +1,35 @@
+.contactContainer {
+  padding: 20px;
+  background: #fdfdfd; /* Adjust background color */
+}
+
+.mainTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.contactSection {
+  margin-bottom: 40px;
+}
+
+
+.verticalDivider {
+  height: 100%;
+  border-left: 2px solid #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  .contactSection {
+    flex-direction: column;
+  }
+
+  .verticalDivider {
+    display: none;
+  }
+}

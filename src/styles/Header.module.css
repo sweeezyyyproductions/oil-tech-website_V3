@@ -1,0 +1,47 @@
+.header {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.mobileMenuButton {
+  display: none;
+}
+
+.menu {
+  flex: 1;
+  justify-content: flex-end;
+  background-color: #000000;
+}
+
+.customLink {
+  color: white;
+}
+
+.drawer {
+  background-color: #24262b;
+}
+
+.drawerMenu .ant-menu-item {
+  background-color: #24262b !important;
+}
+
+.drawerMenu .ant-menu-item-selected {
+  background-color: #1b1bc8 !important;
+}
+
+@media (max-width: 768px) {
+  .mobileMenuButton {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+}

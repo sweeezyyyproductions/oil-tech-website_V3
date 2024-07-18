@@ -1,0 +1,34 @@
+.testimonialBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 0px; /* Adjusted margin for more spacing */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .reviewHeader {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+  
+  .rating {
+    margin-top: 5px;
+  }
+  
+  .content {
+    margin-top: 15px;
+  }
+  
+  .ant-btn-link {
+    padding: 0;
+  }
+  

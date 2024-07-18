@@ -1,0 +1,45 @@
+.servicesContainer {
+  padding: 20px;
+}
+
+.titleSection {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titleSection h1 {
+  font-size: 2rem;
+}
+
+.titleSection p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.serviceCards {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .serviceCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serviceCard {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 769px) {
+  .serviceCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .serviceCard {
+    flex: 1 1 calc(33.333% - 16px);
+    margin-bottom: 16px;
+  }
+}

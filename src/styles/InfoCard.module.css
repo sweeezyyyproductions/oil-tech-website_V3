@@ -1,0 +1,23 @@
+.infoCard {
+  text-align: center;
+  background-color: #fafafa;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px; /* Add margin bottom to space out cards */
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  margin: 0;
+}

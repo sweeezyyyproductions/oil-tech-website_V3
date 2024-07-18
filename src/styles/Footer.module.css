@@ -1,0 +1,85 @@
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0; /* Reduced padding to decrease height */
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .footerCol {
+    margin-bottom: 20px;
+    flex: 1; /* Ensure columns take up equal space */
+    min-width: 200px; /* Set a minimum width to maintain layout */
+  }
+  
+  .footerCol h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footerCol ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerCol ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footerCol ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerCol ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .socialLinks a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .socialLinks a:hover {
+    color: #e70c0c;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  
+  .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  /* Ensure the footer height is reduced without content overlap */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footerCol {
+      margin-bottom: 15px;
+    }
+  }
+  

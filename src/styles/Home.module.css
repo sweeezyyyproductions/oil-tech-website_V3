@@ -1,0 +1,65 @@
+.section1Container {
+  background-color: rgb(236, 236, 236);
+  margin-top: 20px !important;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.heroSection {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.titleContainer {
+  margin-bottom: 20px;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  color: #e60c0c !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: #ffffff !important;
+  background-color: rgb(8, 5, 5);
+  padding: 20px !important;
+  border-radius: 8px !important;
+  margin: 10px auto !important; /* Center align with auto margin */
+  width: 90%; /* Default width for mobile view */
+}
+
+@media (min-width: 768px) {
+  .mainTitle {
+    width: 70%; /* Adjust width for medium screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .mainTitle {
+    width: 50%; /* Adjust width for large screens */
+  }
+}
+
+
+
+.subTitle {
+  color: #fff !important;
+  margin: 10px;
+}
+
+.buttonContainer {
+  margin: 20px 0;
+}
+
+.scheduleButton {
+  font-size: 1.25rem;
+  padding: 10px 20px;
+}
+
+.divider {
+  margin: 40px 0;
+  border: 0;
+  height: 1px;
+  background: #000;
+}
